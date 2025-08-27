@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: #282c34;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  margin: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

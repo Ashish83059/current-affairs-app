@@ -1,0 +1,38 @@
+.news-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.news-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  color: black;
+}
+
+.news-card:hover {
+  transform: scale(1.02);
+}
+
+/* 🌙 Dark Mode Styles */
+.dark-mode .news-card {
+  background: #2c2c2c;
+  color: #f1f1f1;
+}
+
+.dark-mode .news-card h3 {
+  color: #ffffff;
+}
+
+.dark-mode .news-card p {
+  color: #d0d0d0;
+}
+
+.dark-mode .news-card a {
+  color: #4ea9ff;
+  text-decoration: underline;
+}
